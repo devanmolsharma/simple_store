@@ -1,0 +1,9 @@
+<div>
+<%@products.each do |prod|%>
+
+<%= link_to prod.title, prod %>
+<div class='Price'><%=prod.price%></div>
+<br/>
+<br/>
+<%end%>
+</div>
